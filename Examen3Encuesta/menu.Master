@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="menu.Master.cs" Inherits="Examen3Encuesta.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<form id="form1" runat="server">
+    <title>Por una mejor Costa Rica</title>
+    <link href="css/gridviewcss.css" rel="stylesheet" />
+    <link href="css/menuccs.css" rel="stylesheet" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+   
+  <div class="skew-menu">
+  <ul>
+    <li><a href="Formulario.aspx">Realice la encuesta</a></li>
+    <li><a href="Datosencuesta.aspx">Datos de las encuestas</a></li>
+
+  </ul>
+
+	</div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        
+    </form>
+</body>
+</html>
